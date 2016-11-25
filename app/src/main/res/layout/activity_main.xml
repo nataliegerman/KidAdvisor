@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/popcorn_movie">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="10dp"
+        android:layout_weight="1" />
+    <View
+        android:layout_width="0dp"
+        android:layout_height="10dp"
+        android:layout_weight="0.2" />
+
+    <Button
+        android:id="@+id/kids_btn"
+        android:layout_width="155dp"
+        android:layout_height="100dp"
+        android:text="@string/kids_button_text"
+        android:onClick="moveToKidMenu"
+        android:background="#408cbd"
+        android:textColor="#f0e9c2"
+        android:textStyle="bold" />
+    <View
+        android:layout_width="0dp"
+        android:layout_height="10dp"
+        android:layout_weight="1.4" />
+    <!--
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="109dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/kid_picture" />
+-->
+
+    </LinearLayout>

@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColor">#60b4dd</item>
+    </style>
+    <style name="ListView" parent="Theme.AppCompat.Light">
+        <item name="android:textColor">#e6efff</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:background">#313131</item>
+    </style>
+    <style name="RadioGroupInList" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColor">#d4e0e0</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="ButtonStyle1" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">#60b4dd</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#dee9ff</item>
+    </style>
+    <style name="ListFont" parent="@android:style/Widget.ListView">
+        <item name="android:textColor">#dee9ff</item>
+        <item name="android:typeface">sans</item>
+    </style>
+</resources>

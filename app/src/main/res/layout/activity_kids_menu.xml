@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/popcorn_movie_kid_act3"
+    tools:context="com.example.woody.kiddymov.KidMenu">
+
+    <TextView
+        android:text="Movies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/kids_menu_s2t_text_view"/>
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="190dp"
+        android:background="#190a23"
+        android:text="@string/kids_menu_button_start_voice"
+        android:id="@+id/kids_menu_start_voice_to_text"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:padding ="10dip">
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/backButton"
+            android:src="@drawable/back"
+            android:layout_gravity="center_horizontal"
+            style="?android:attr/borderlessButtonStyle"/>
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:id="@+id/playBtn"
+        android:src="@drawable/play"
+        android:layout_gravity="center_horizontal"
+        style="?android:attr/borderlessButtonStyle"/>
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/nextBtn"
+            android:src="@drawable/next"
+            style="?android:attr/borderlessButtonStyle"/>
+
+    </LinearLayout>
+
+
+    <!--
+        <WebView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:padding="10dp"
+            android:layout_alignParentStart="true"
+            android:text="@string/kids_play_vid"
+            android:id="@+id/kids_play_vid_id"/> -->
+
+    </LinearLayout>

@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">KidAdvisor</string>
+    <string name="parents_button_text">Parents</string>
+    <string name="kids_button_text">Watch Movies</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_parents">Parents Menu</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="app_label">app_label</string>
+    <string name="search_vid">Search a new movie online</string>
+    <string name="search_vid2">https://www.youtube.com/watch?v=cbP2N1BQdYc</string>
+    <string name="search_box">Search online</string>
+    <string name="search_button">Search</string>
+    <string name="recommend_btn">Recommendations</string>
+    <string name="add_vid_box">Copy URL here</string>
+    <string name="add_vid_button">Enter</string>
+
+    <string name="edit_btn">Edit</string>
+    <string name="delete_btn">Delete</string>
+
+    <string name="q1">Is it a boy or a girl movie?</string>
+    <string name="a1">It\'s a boy movie</string>
+    <string name="a2">This video is similar for boys and girls</string>
+    <string name="a3">It\'s a girl movie</string>
+
+    <string name="q2">Is it one of your child\'s favorite movies?</string>
+    <string name="a21">Yes, my child loves it</string>
+    <string name="a22">I don\'t know</string>
+    <string name="a23">No, it\'s a new movie</string>
+
+    <string name="q3">This video\'s genre is a</string>
+    <string name="a31">Cartoon or animation</string>
+    <string name="a32">TV program or movie</string>
+    <string name="a33">Song or musical</string>
+
+    <string name="q4">This video is</string>
+    <string name="a41">Amateur funny video</string>
+    <string name="a42">Educational or documentaries</string>
+    <string name="a43">Popular for kids</string>
+
+    <string name="q5">Do you want your kid to watch this movie more?</string>
+    <string name="a51">No</string>
+    <string name="a52">Treat this movie equal as others</string>
+    <string name="a53">Yes, suggest it more, I want him to watch it</string>
+
+    <string name="enter_vid_to_db">Save this video</string>
+    <string name="add_record_button">Add audio record</string>
+    <string name="add_record_done_button_text">Save</string>
+    <string name="kids_menu_button_start_voice">Start S2T</string>
+    <string name="kids_play_vid">Play Video</string>
+
+    <string name="speech_prompt">Say something&#8230;</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+
+
+    <string name="title_activity_main">Kid Advisor</string>
+    <string name="title_activity_kids_menu">Kids Menu</string>
+    <string name="title_activity_parents_menu">Parent Menu</string>
+    <string name="title_activity_searchable">SearchableActivity</string>
+    <string name="title_activity_add_new_vid">Add New Video</string>
+    <string name="title_activity_edit_existing_vid">Edit Video</string>
+    <string name="title_activity_audio_record">AudioRecordActivity</string>
+    <string name="title_activity_edit_movie">edit_movie</string>
+    <string name="title_activity_play_youtube_vid">play_youtube_vid</string>
+    <string name="title_activity_kid_player">kidPlayer</string>
+
+
+
+</resources>
